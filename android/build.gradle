@@ -30,6 +30,8 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
+    namespace 'com.crazecoder.flutterbugly'
+    
     compileSdkVersion 28
 
     defaultConfig {
